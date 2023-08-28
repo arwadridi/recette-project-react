@@ -1,8 +1,10 @@
-import React from 'react'
+import styles from "./Footer.module.scss"
 
 function footer() {
   return (
-    <div className="b2">footer</div>
+    <footer className={`${styles.footer} d-flex flex-row align-items-center justify-content-center`}>
+      <p>Copyright ©2023 Recette pingucoder,Inc.</p>
+      </footer>
   )
 }
 
